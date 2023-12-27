@@ -1,0 +1,31 @@
+
+Text(
+ 'The Bridge',
+ style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+),
+Text(
+ 'Discover a world of possibilities',
+ style: TextStyle(fontSize: 24, color: Colors.purple),
+),
+
+
+FlatButton(
+ onPressed: () {
+    //we can  Navigate to the next screen if needed 
+ },
+ child: Text(
+    'Click here',
+    style: TextStyle(fontSize: 24, color: Colors.white),
+ ),
+ color: Colors.blue,
+),
+
+// Testimonials
+Text(
+ 'Happy User 1',
+ style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+),
+Text(
+ 'I love The Bridge! It has completely transformed my learning experience.',
+ style: TextStyle(fontSize: 18, color: Colors.black),
+),
